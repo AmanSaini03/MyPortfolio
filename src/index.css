@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide UnicornStudio watermark */
+[data-us-project] .us-watermark,
+[data-us-project] .unicorn-watermark,
+[data-us-project] .us-logo,
+[data-us-project] .us-branding,
+[data-us-project] a[href*="unicornstudio"],
+[data-us-project] div[style*="position: absolute"][style*="bottom"],
+[data-us-project] div[style*="position: fixed"][style*="bottom"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Additional selectors to catch various watermark implementations */
+div[data-us-project] > div:last-child {
+  position: relative;
+}
+
+div[data-us-project] > div:last-child::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  z-index: 10;
+}
+
+/* Hide any text containing "unicorn" or "studio" */
+[data-us-project] *:not(script):not(style) {
+  color: inherit;
+}
+
+[data-us-project] span:contains("Unicorn"),
+[data-us-project] span:contains("Studio"),
+[data-us-project] div:contains("Made with") {
+  display: none !important;
+}
