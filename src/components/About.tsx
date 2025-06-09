@@ -48,7 +48,7 @@ const About: React.FC = () => {
                 Passionate Web Developer & Designer
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                With over 5 years of experience in freelance web development, I specialize in 
+                With over 3 years of experience in freelance web development, I specialize in 
                 creating modern, responsive websites that not only look stunning but also deliver 
                 exceptional user experiences.
               </p>
