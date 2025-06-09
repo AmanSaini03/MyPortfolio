@@ -1,6 +1,8 @@
 import React from 'react';
 import { Code, Zap, Users, Award } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import AmanPhoto from '../assets/Aman_photo.jpg'; // adjust the path based on your file location
+
 
 const About: React.FC = () => {
   const { ref, inView } = useScrollAnimation();
@@ -30,10 +32,11 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-teal-400 rounded-full mx-auto mb-8 flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/src/assets/Aman_photo.jpg" 
-                    alt="Aman R Saini"
-                    className="w-72 h-72 object-cover rounded-full"
-                  />
+  src={AmanPhoto} 
+  alt="Aman R Saini" 
+  className="w-72 h-72 object-cover rounded-full" 
+/>
+
                 </div>
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-orange-400 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-blue-400 rounded-full opacity-20 animate-pulse delay-1000"></div>
