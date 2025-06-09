@@ -11,30 +11,11 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'EcoMart E-commerce Store',
+    title: 'Marut Gym',
     description: 'Modern e-commerce platform for sustainable products with advanced filtering, payment integration, and inventory management.',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe'],
-    liveUrl: 'https://ecomart-store.netlify.app',
-    githubUrl: 'https://github.com/AmanSaini03/ecomart-ecommerce'
-  },
-  {
-    id: '3',
-    title: 'FinanceTracker Pro',
-    description: 'Personal finance management app with expense tracking, budget planning, and financial goal setting with beautiful charts.',
-    image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Vue.js', 'Express.js', 'MySQL', 'Chart.js', 'JWT'],
-    liveUrl: 'https://financetracker-pro.herokuapp.com',
-    githubUrl: 'https://github.com/AmanSaini03/finance-tracker-pro'
-  },
-  {
-    id: '4',
-    title: 'RestaurantHub Management',
-    description: 'Complete restaurant management system with online ordering, table reservations, menu management, and staff dashboard.',
-    image: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Node.js', 'PayPal API'],
-    liveUrl: 'https://restauranthub-management.firebase.app',
-    githubUrl: 'https://github.com/AmanSaini03/restaurant-management'
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Tailwind CSS'],
+    liveUrl: 'https://marutgym.web.app/',
   }
 ];
 
