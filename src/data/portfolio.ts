@@ -3,12 +3,11 @@ import { Project, Service, Testimonial } from '../types';
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'TechFlow SaaS Platform',
-    description: 'Complete SaaS platform for project management with real-time collaboration, analytics dashboard, and team management features.',
-    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Stripe'],
-    liveUrl: 'https://techflow-saas.vercel.app',
-    githubUrl: 'https://github.com/AmanSaini03/techflow-saas'
+    title: 'Central Public School',
+    description: 'A modern and responsive school website that provides essential information for students, parents, and teachers — including admissions, events, announcements, and contact details.',
+    image: 'https://img.freepik.com/free-vector/flat-design-minimal-international-school-landing-page_23-2149250560.jpg?ga=GA1.1.486704161.1743574496&semt=ais_hybrid&w=740',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Tailwind CSS'],
+    liveUrl: 'https://cpslucknow.edu.in/',
   },
   {
     id: '2',
