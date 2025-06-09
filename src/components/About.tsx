@@ -8,10 +8,10 @@ const About: React.FC = () => {
   const { ref, inView } = useScrollAnimation();
 
   const stats = [
-    { icon: Code, label: 'Projects Completed', value: '50+' },
-    { icon: Users, label: 'Happy Clients', value: '30+' },
-    { icon: Zap, label: 'Years Experience', value: '5+' },
-    { icon: Award, label: 'Awards Won', value: '8+' }
+    { icon: Code, label: 'Projects Completed', value: '60+' },
+    { icon: Users, label: 'Happy Clients', value: '55+' },
+    { icon: Zap, label: 'Years Experience', value: '3+' },
+    { icon: Award, label: 'Awards Won', value: '6+' }
   ];
 
   return (
@@ -32,10 +32,10 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-teal-400 rounded-full mx-auto mb-8 flex items-center justify-center overflow-hidden">
                   <img 
-  src={AmanPhoto} 
-  alt="Aman R Saini" 
-  className="w-72 h-72 object-cover rounded-full" 
-/>
+                    src={AmanPhoto} 
+                    alt="Aman R Saini" 
+                    className="w-72 h-72 object-cover rounded-full" 
+                  />
 
                 </div>
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-orange-400 rounded-full opacity-20 animate-pulse"></div>

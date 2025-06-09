@@ -73,8 +73,8 @@ export const services: Service[] = [
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    role: 'Founder',
+    name: 'preety Sharma',
+    role: 'Manager of Operations',
     company: 'TechStart Solutions',
     content: 'Aman delivered exactly what we needed - a modern, fast website that perfectly represents our brand. His attention to detail is exceptional.',
     avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
@@ -82,9 +82,9 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '2',
-    name: 'Michael Chen',
+    name: 'Rahul Singh',
     role: 'Marketing Director',
-    company: 'GrowthCorp',
+    company: 'WebInnovate Agency',
     content: 'Professional, responsive, and delivered on time. The website Aman built has significantly improved our online presence and conversions.',
     avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=200',
     rating: 5
